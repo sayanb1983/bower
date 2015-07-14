@@ -35,6 +35,11 @@
             "shorthand":   "-E",
             "flag":        "--save-exact",
             "description": "Configure installed packages with an exact version rather than semver"
+        },
+        {
+            "shorthand":   "-M",
+            "flag":        "--minimum",
+            "description": "Configure installed packages with minimum version allowed by semver"
         }
     ]
 }
